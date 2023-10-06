@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food Restaurant</title>
+    <style>
+        body {
+            font-family: monospace;
+            border: 5px solid gold;
+            padding: 60px;
+        }
+        h1 {
+            border: 4px solid goldenrod;
+            text-align: center;
+            padding: 3%;
+            font-size: 50px;
+            background-image: url(img/chinese.png) ;
+            color: gold;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        h2 {
+            border: 4px double black;
+            text-align: center;
+            margin-left: 500px;
+            margin-right: 500px;
+            background-color: rgb(226, 35, 35);
+            padding: 30px;
+            font-size: xx-large;
+            color: bisque;
+        }
+        img {
+            margin-top: 60px;
+            width: 420px;
+            height: 350px;
+            display: inline;
+            margin-left: 100px;
+            margin-right:50px ;
+            border: 4px solid goldenrod;
+            outline: 4px solid red;
+            margin-bottom: 50px;
+        }
+        .icon-bar {
+            width: 100%; /* Full-width */
+            background-color: #555; /* Dark-grey background */
+            overflow: auto; /* Overflow due to float */
+            border: 4px solid goldenrod;
+        }
+
+        .icon-bar a {
+            float: left; /* Float links side by side */
+            text-align: center; /* Center-align text */
+            width: 33.33%; /* Equal width (5 icons with 20% width each = 100%) */
+            padding: 12px 0; /* Some top and bottom padding */
+            transition: all 0.3s ease; /* Add transition for hover effects */
+            color: gold; /* White text color */
+            font-size: 36px; /* Increased font size */
+        }
+
+        .icon-bar a:hover {
+            background-color: #000; /* Add a hover color */
+        }
+
+        .active {
+            background-color: rgb(226, 35, 35); /* Add an active/current color */
+        }
+       
+
+    </style>
+</head>
+<body>
+    <h1> Welcome this is our Fast Food Restaurant!</h1>
+    <div class="icon-bar">
+        <a class="active" href="/rice.html"><b>Rice meal</b></a> 
+        <a class="active" href="noodles.html"><b>Noodles</b></a> 
+        <a class="active" href="drinks.html"><b>Drinks</b></a> 
+    </div>
+    <img src="img/7.jpg" alt="rice">
+    <img src="img/10.jpg" alt="noodles">
+    <img src="img/33.png" alt="drinks">
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noodles</title>
+    <style>
+        body{
+            padding: 30px;
+        }
+        .icon-bar {
+            width: 100%; /* Full-width */
+            background-color: #555; /* Dark-grey background */
+            overflow: auto; /* Overflow due to float */
+        }
+
+        .icon-bar a {
+            float: left; /* Float links side by side */
+            text-align: center; /* Center-align text */
+            width: 33.33%; /* Equal width (5 icons with 20% width each = 100%) */
+            padding: 12px 0; /* Some top and bottom padding */
+            transition: all 0.3s ease; /* Add transition for hover effects */
+            color: gold; /* White text color */
+            font-size: 36px; /* Increased font size */
+        }
+
+        .icon-bar a:hover {
+            background-color: #000; /* Add a hover color */
+        }
+
+        .active {
+            background-color: rgb(226, 35, 35); /* Add an active/current color */
+        }
+        h1 {
+            text-align: center;
+            color: gold;
+            background-color: brown;
+            font-size: 40px;
+            border: 6px dotted beige;
+            margin-top: 50px;
+        }
+        img {
+            width: 300px;
+            height: 200px;
+            border: 4px solid goldenrod;
+            outline: 4px solid red;
+            margin-top: 70px;
+        }  
+            
+        ul {
+            list-style-type: none;
+        }
+        strong {
+            font-size: 30px;
+            color: brown;
+            margin-left: 20px;
+        }
+        #three{
+            margin-left: 300px;
+        }
+        #egg {
+            margin-left: 355px;
+        }
+    </style>
+</head>
+<body>
+    <div class="icon-bar">
+        <a class="active" href="index.html"><b>Home</b></a>
+        <a class="active" href="rice.html"><b>Rice meal</b></a>
+        <a class="active" href="drinks.html"><b>drinks</b></a>
+    </div>
+    <h1>Noodles</h1>
+    <ul>
+        <li>
+            <img src="img/8.jpg">
+            <strong>Meatball noodles</strong>
+            <img id="three"src="img/6.jpg">
+            <strong>Three fresh noodles</strong>
+        </li>
+        <li>
+            <img src="img/5.jpg">
+            <strong>Beef noodles</strong>
+            <img id="egg" src="img/0.jpg">
+            <strong>Egg noodles</strong>
+        </li>
+    </ul>
+</body>
+</html>
+
